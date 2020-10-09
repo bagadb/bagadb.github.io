@@ -1,0 +1,23 @@
+body, html {
+
+    font-size: 1.19rem;
+    font-family: monospace;
+    
+    margin: 0;
+    padding: 0;
+    
+    height: 100%;
+
+    background-color: black;
+
+    /* The image used */
+    background-image: url("assets/background1080p.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
