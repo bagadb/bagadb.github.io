@@ -1,16 +1,40 @@
-.headertext {
+::ng-deep :root {
+    --darkest:      #212529 ;
+    --dark:         #32363A ;
+    --medium:       #ff8811 ;
+    --light:        #7EA8BE ;
+    --lightest:     #FFFFFF ;
+  }
+
+.maincontainer {
+    background-color: var(--darkest);
+}
+
+.homebuttondiv {
+    background-color: var(--darkest);
+}
+
+.homebuttondiv:hover {
+    background-color: var(--dark);
+}
+
+.header {
 
     font-family: monospace !important;
-    color: rgb(255, 118, 0);
-
+    color: var(--medium);
+    
 }
 
-.unblue {
-    color: inherit;
+.buttonlink {
+
+    color:inherit;
     text-decoration: none;
-    background-color: rgba(255, 118, 0, 0);
+
+    
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
 }
 
-.unblue:hover {
-    background-color: rgba(255, 118, 0, 0.1);
+.postsdiv {
+    margin-bottom: 5px;
 }

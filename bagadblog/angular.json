@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "bagadblog"
+    }
+  },
+  "defaultProject": "bagadblog",
+  "cli": {
+    "analytics": false
+  }
 }

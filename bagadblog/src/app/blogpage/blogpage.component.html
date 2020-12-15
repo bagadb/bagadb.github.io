@@ -1,7 +1,20 @@
-<div class="container-fluid">
-    <div class="row justify-content-center align-items-center" style="height: 100vh;">
+<div class="container-fluid maincontainer">
+    <div class="row header">
         <div class="col-12">
-            <span class="headertext">Under Construction!<br><a class="unblue" routerLink="/">[Go Back]</a></span>
+            <h1>Welcome to the Blog!</h1>
+        </div>
+        <div class="col-12 homebuttondiv"> 
+            <a class="buttonlink" routerLink="/home" >
+                <h2> [go back] </h2>
+            </a>
+        </div>
+        <div class="col-12 header">
+            <h3>There are {{ numberOfPosts }} posts!</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div  *ngFor="let post of listOfAllPosts" class="col-12 postsdiv" >
+            <app-post [objectOfPost]="post" ></app-post>
         </div>
     </div>
 </div>
