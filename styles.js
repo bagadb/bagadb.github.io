@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/shreyas/Bagad/bagadb.github.io/bagadblog/src/styles.css */"OmL/");
+module.exports = __webpack_require__(/*! E:\Bagad\bagadb.github.io\bagadblog\src\styles.css */"OmL/");
 
 
 /***/ }),
@@ -440,8 +440,9 @@ __webpack_require__.r(__webpack_exports__);
 // Imports
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+___CSS_LOADER_EXPORT___.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "body, html {\n\n    font-size: 1.19rem;\n    font-family: monospace;\n    \n    margin: 0;\n    padding: 0;\n    \n    height: 100%;\n\n    background-color: black;\n\n    /* The image used */\n    background-image: url('background1080p.jpg');\n  \n    /* Full height */\n    height: 100%;\n  \n    /* Center and scale the image nicely */\n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: cover;\n  }", "",{"version":3,"sources":["webpack://src/styles.css"],"names":[],"mappings":"AAAA;;IAEI,kBAAkB;IAClB,sBAAsB;;IAEtB,SAAS;IACT,UAAU;;IAEV,YAAY;;IAEZ,uBAAuB;;IAEvB,mBAAmB;IACnB,4CAAmD;;IAEnD,gBAAgB;IAChB,YAAY;;IAEZ,sCAAsC;IACtC,2BAA2B;IAC3B,4BAA4B;IAC5B,sBAAsB;EACxB","sourcesContent":["body, html {\n\n    font-size: 1.19rem;\n    font-family: monospace;\n    \n    margin: 0;\n    padding: 0;\n    \n    height: 100%;\n\n    background-color: black;\n\n    /* The image used */\n    background-image: url(\"assets/background1080p.jpg\");\n  \n    /* Full height */\n    height: 100%;\n  \n    /* Center and scale the image nicely */\n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: cover;\n  }"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, "body, html {\r\n\r\n    font-size: 1rem;\r\n\r\n    font-family: 'Montserrat', sans-serif;\r\n    font-weight: 400;\r\n\r\n    margin: 0;\r\n    padding: 0;\r\n    \r\n    height: 100%;\r\n\r\n    background-color: black;\r\n\r\n    /* The image used */\r\n    background-image: url('background1080p.jpg');\r\n  \r\n    /* Full height */\r\n    height: 100%;\r\n  \r\n    /* Center and scale the image nicely */\r\n    background-position: center;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n  }", "",{"version":3,"sources":["webpack://src/styles.css"],"names":[],"mappings":"AAEA;;IAEI,eAAe;;IAEf,qCAAqC;IACrC,gBAAgB;;IAEhB,SAAS;IACT,UAAU;;IAEV,YAAY;;IAEZ,uBAAuB;;IAEvB,mBAAmB;IACnB,4CAAmD;;IAEnD,gBAAgB;IAChB,YAAY;;IAEZ,sCAAsC;IACtC,2BAA2B;IAC3B,4BAA4B;IAC5B,sBAAsB;EACxB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');\r\n\r\nbody, html {\r\n\r\n    font-size: 1rem;\r\n\r\n    font-family: 'Montserrat', sans-serif;\r\n    font-weight: 400;\r\n\r\n    margin: 0;\r\n    padding: 0;\r\n    \r\n    height: 100%;\r\n\r\n    background-color: black;\r\n\r\n    /* The image used */\r\n    background-image: url(\"assets/background1080p.jpg\");\r\n  \r\n    /* Full height */\r\n    height: 100%;\r\n  \r\n    /* Center and scale the image nicely */\r\n    background-position: center;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n  }"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 

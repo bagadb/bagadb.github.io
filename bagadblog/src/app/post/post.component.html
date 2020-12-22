@@ -1,0 +1,20 @@
+<div class="postclass">
+<!--
+
+    <h2 class="titleclass"> <b> {{ objectOfPost.title }} </b> </h2> <br>
+    <hr>
+    <p class="contentclass">{{ objectOfPost.path }} </p> <br>
+
+-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="titleclass col-12">
+                <h2><b>{{ title }}</b></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div [innerHTML]="contentOfPost" class="contentclass col-12">
+            </div>
+        </div>
+    </div>
+</div> 

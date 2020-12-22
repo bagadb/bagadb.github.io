@@ -4,7 +4,7 @@
     --medium:       #ff8811 ;
     --light:        #7EA8BE ;
     --lightest:     #FFFFFF ;
-  }
+}
 
 .maincontainer {
     background-color: var(--darkest);
@@ -20,9 +20,8 @@
 
 .header {
 
-    font-family: monospace !important;
     color: var(--medium);
-    
+
 }
 
 .buttonlink {
@@ -36,5 +35,5 @@
 }
 
 .postsdiv {
-    margin-bottom: 5px;
+    margin-bottom: 2vh;
 }

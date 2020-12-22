@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PostComponent } from '../post/post.component';
-import postsdata from '../../assets/posts/postdata.json';
+import postsData from '../../assets/posts/postdata.json';
 import { CommonModule } from '@angular/common';
 
 
@@ -11,11 +11,23 @@ import { CommonModule } from '@angular/common';
 })
 
 export class BlogpageComponent implements OnInit {
-  
-  listOfAllPosts = postsdata;
 
-  numberOfPosts = this.listOfAllPosts.length;
+  stringifiedPostsDataGenerator(postsData) {
+    
+    var stringifiedPostsData = []
+
+    postsData.forEach(element => {
+      var stringifiedPost = JSON.stringify(element)
+      stringifiedPostsData.push(stringifiedPost);
+    });
+
+    return stringifiedPostsData;
+  }
   
+  stringifiedPostsData = this.stringifiedPostsDataGenerator(postsData);
+
+  numberOfPosts = this.stringifiedPostsData.length;
+
   constructor() { }
 
   ngOnInit(): void {

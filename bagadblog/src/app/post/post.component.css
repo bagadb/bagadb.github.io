@@ -1,0 +1,15 @@
+.postclass {
+    background-color: var(--lightest);
+    color: var(--dark);
+    border-radius: 10px;
+}
+
+.titleclass {
+    padding: 10px;
+    color: var(--darkest);
+}
+
+.contentclass {
+    margin-bottom: 1vh;
+}
+

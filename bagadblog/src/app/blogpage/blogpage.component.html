@@ -12,9 +12,11 @@
             <h3>There are {{ numberOfPosts }} posts!</h3>
         </div>
     </div>
-    <div class="row">
-        <div  *ngFor="let post of listOfAllPosts" class="col-12 postsdiv" >
-            <app-post [objectOfPost]="post" ></app-post>
+    <div class="row justify-content-center">
+        <div  *ngFor="let stringifiedPost of stringifiedPostsData" class="col-xl-8 col-12 postsdiv" >
+            <app-post 
+                [stringifiedPost]="stringifiedPost"
+                ></app-post>
         </div>
     </div>
 </div>
