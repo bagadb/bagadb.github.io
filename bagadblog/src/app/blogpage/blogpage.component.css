@@ -1,11 +1,3 @@
-::ng-deep :root {
-    --darkest:      #212529 ;
-    --dark:         #32363A ;
-    --medium:       #ff8811 ;
-    --light:        #7EA8BE ;
-    --lightest:     #FFFFFF ;
-}
-
 .maincontainer {
     background-color: var(--darkest);
 }

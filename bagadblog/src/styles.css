@@ -1,27 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
 body, html {
+
+  --darkest: #0b090a;
+  
+  --dark:  rgba(0,0,0,0.6);
+
+  --medium: #ba181b;
+
+  --light: #ba181b;
+
+  --lightest: white;
+
+  --highlight: #000000FF;
+
+  --highlight-off: #00000000;
+
 
     font-size: 1rem;
 
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+/*
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+
+    font-family: 'Share Tech Mono', monospace;
+*/
+    
+    background-color: black;
 
     margin: 0;
     padding: 0;
-    
-    height: 100%;
 
-    background-color: black;
-
-    /* The image used */
-    background-image: url("assets/background1080p.jpg");
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
