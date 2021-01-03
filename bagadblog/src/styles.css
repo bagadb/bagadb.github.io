@@ -6,11 +6,11 @@ body, html {
 
   --darkest: #0b090a;
   
-  --dark:  rgba(0,0,0,0.6);
+  --dark:  rgba(0,0,0,0.8);
 
-  --medium: #ba181b;
+  --medium: #ef233c;
 
-  --light: #ba181b;
+  --light: #ef233c;
 
   --lightest: white;
 
