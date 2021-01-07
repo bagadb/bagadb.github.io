@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 body, html {
 
@@ -23,12 +22,6 @@ body, html {
 
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-/*
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 400;
-
-    font-family: 'Share Tech Mono', monospace;
-*/
     
     background-color: black;
 
