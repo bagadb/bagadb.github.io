@@ -18,13 +18,13 @@
 .photoclass {
     border-style: solid;
     border-color: var(--light);
-    
+
     border-radius: 100%;
     pointer-events: none;
 }
 
 .bioclass {
-    color: var(--lightest);
+    color: var(--light-text);
 }
 
 .maindiv {
@@ -36,7 +36,7 @@
 }
 
 .navigation {
-    color: var(--medium)
+    color: var(--highlight-text)
 }
 
 .buttonlink {
@@ -46,24 +46,24 @@
 
     
     cursor: pointer;
-    background-color: rgba(255, 118, 0, 0);
     background-color: var(--highlight-off);
 }
 
 .buttonlink:hover {
-    background-color: rgba(255, 118, 0,0.1);
     background-color: var(--highlight);
 }
 
 .emailclass {
-    color: var(--medium);
+    color: var(--highlight-text);
     user-select: text;
 }
 
 .nameclass {
-    color: var(--medium);
+    padding: 0.5vh;
+    background-color: white;
+    color: var(--dark-background);
 }
 
 .socialtext {
-    color: var(--lightest);
+    color: var(--light-text);
 }

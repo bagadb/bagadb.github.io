@@ -1,21 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 body, html {
 
-  --darkest: #0b090a;
+  --dark-background: #0b090a;
   
   --dark:  rgba(0,0,0,0.8);
+  
+  --medium: white;
+  
+  --light: #2c7ac3;
 
-  --medium: #ef233c;
-
-  --light: #ef233c;
-
-  --lightest: white;
+  --dark-text: black;
+  
+  --light-text: white;
 
   --highlight: #000000FF;
 
   --highlight-off: #00000000;
+
+  --highlight-text: #2c7ac3;
 
 
     font-size: 1rem;
@@ -23,7 +28,7 @@ body, html {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     
-    background-color: black;
+    background-color: var(--dark-background);
 
     margin: 0;
     padding: 0;
