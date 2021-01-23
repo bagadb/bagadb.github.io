@@ -4,7 +4,7 @@ import { BlogComponent } from './blog/blog.component';
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  { path: 'blog', component: BlogComponent },
+  { path: 'blog', loadChildren: () => import('./blog/blog.module').then(m => m.BlogModule) },
   { path: '**', component: HomeComponent }
 ];
 

@@ -1,0 +1,40 @@
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+****************************************************************************************
+This is a development tool for Scully applications.
+You can ignore the warning (TLS) or run scully with --no-warning
+****************************************************************************************
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+ The router plugin "contentFolder has thrown the below error,
+              while trying to render route "unknown"
+              Scully will exitYAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 3, column 5:
+    date: 22-01-2021
+        ^
+
+ The router plugin "contentFolder has thrown the below error,
+              while trying to render route "unknown"
+              Scully will exitYAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 3, column 5:
+    date: 22-01-2021
+        ^
+

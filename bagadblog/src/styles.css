@@ -4,13 +4,13 @@
 
 body, html {
 
-  --dark-background: #0b090a;
+  --dark-background: #11151c;
   
   --dark:  rgba(0,0,0,0.8);
   
   --medium: white;
   
-  --light: #2c7ac3;
+  --light: #3a88d1;
 
   --dark-text: black;
   
@@ -20,17 +20,10 @@ body, html {
 
   --highlight-off: #00000000;
 
-  --highlight-text: #2c7ac3;
+  --highlight-text: #3a88d1;
 
-
-    font-size: 1rem;
-
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    
-    background-color: var(--dark-background);
+  background-color: var(--dark-background);
 
     margin: 0;
     padding: 0;
-
   }

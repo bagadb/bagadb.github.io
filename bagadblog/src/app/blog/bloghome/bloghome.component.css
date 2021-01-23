@@ -1,0 +1,49 @@
+/*
+#3a88d1
+*/
+.maindiv {
+    font-family: 'Lato';
+    background-color: var(--dark-background);
+}
+
+.headerdiv {
+    color: #3a88d1;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.listofPostsdiv {
+    color: white;
+}
+
+.myname {
+    color: white;
+}
+
+.post-card {
+    background-color: white;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    
+    color: #3a88d1;
+
+    transition: ease-in 0.1s;
+}
+
+.post-card:hover {
+    color: white;
+    background-color: #3a88d1;
+}
+
+.post-title {
+    font-weight: bold;
+}
+
+.post-description {
+    color: var(--dark-background);
+}
+
+.post-date {
+    color: var(--dark-background);
+}
