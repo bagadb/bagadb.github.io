@@ -1,9 +1,12 @@
 <div class="container-fluid maindiv">
-  <div class="row justify-content-center headerdiv">
+  <div class="row headerdiv">
     <div class="col-12 text-center">
       <h1>
         &#123;
-        <span class="myname">Shreyas Lolage's</span> Blog
+        <a [routerLink]="['/']">
+          <span class="myname">Shreyas Lolage's</span> 
+        </a>
+          Blog
         &#125;
       </h1>
     </div>
@@ -17,7 +20,7 @@
         <div class="post-card">
           <h1 class="post-title">{{ post.title }}</h1>
           <h5 class="post-description">{{ post.description }}</h5>
-          <div class="post-date">{{ post.date }}</div>
+          <p class="post-date">{{ post.date }}</p>
         </div>
       </a>
     </div> 

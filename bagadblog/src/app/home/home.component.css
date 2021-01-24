@@ -7,14 +7,7 @@
     background-repeat: no-repeat;
     background-size: cover;
   
-    /* Center and scale the image nicely
-    background-size: cover;
-    */
-
-    font-size: 1rem;
-
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-size: larger;
 
     overflow: auto;
     
@@ -30,6 +23,7 @@
 
 .bioclass {
     color: var(--light-text);
+    font-size: 1.3  rem;
 }
 
 .maindiv {
@@ -40,16 +34,13 @@
     user-select: none;
 }
 
-.navigation {
-    color: var(--highlight-text)
-}
-
 .buttonlink {
     color: inherit;
     text-decoration: none;
     
     cursor: pointer;
     background-color: var(--highlight-off);
+
 }
 
 .buttonlink:hover {
@@ -61,12 +52,11 @@
     user-select: text;
 }
 
-.nameclass {
-    padding: 0.5vh;
-    background-color: white;
-    color: var(--dark-background);
+.socialicon {
+    padding: 1vh;
+    background-color: #00000000;
 }
 
-.socialtext {
-    color: var(--light-text);
+.socialicon:hover {
+    background-color: var(--dark);
 }

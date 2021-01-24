@@ -1,6 +1,3 @@
-/*
-#3a88d1
-*/
 .maindiv {
     font-family: 'Lato';
     background-color: var(--dark-background);
@@ -31,19 +28,25 @@
     transition: ease-in 0.1s;
 }
 
+.post-card h5 {
+    color: black;
+    transition: ease-in 0.1s;
+}
+
+.post-card p {
+    color: black;
+    transition: ease-in 0.1s;
+}
+
 .post-card:hover {
     color: white;
     background-color: #3a88d1;
 }
 
-.post-title {
-    font-weight: bold;
+.post-card:hover h5 {
+    color: white;
 }
 
-.post-description {
-    color: var(--dark-background);
-}
-
-.post-date {
-    color: var(--dark-background);
+.post-card:hover p {
+    color: white;
 }

@@ -3,7 +3,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
 
+.maindiv {
+  background-color: var(--dark-background);
+  font-family: 'Lato';
+}
 
+.header-div {
+    color: #3a88d1;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.myname {
+  color: white;
+}
 
 /* MARKDOWN THEME BEGIN */
 
@@ -11,27 +24,10 @@
   background-color: white;
   padding: 1.5rem;
 
-  font-family: 'Archivo', sans-serif;
-  
   color: black;
 
   border-radius: 0.5rem;
 
 }
 
-.content-div h1 h2 h3 h4 h5 h6 {
-  color: var(--light);
-}
-
 /* OTHER CSS*/
-.maindiv {
-  background-color: var(--dark-background);
-}
-
-.header-div {
-  color: var(--light);
-}
-
-.footer-div {
-  color: var(--light);
-}
