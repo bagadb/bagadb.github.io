@@ -2,9 +2,7 @@
 title: 'My Plans with this Blog'
 description: 'I talk about my plans for this blog and what kind of content I will be posting.'
 date: '1st Feb 2021'
-published: false
-slugs:
-    - ___UNPUBLISHED___kkb1ltfb_4gNzZwSKv0n8y73i4weTI5Pxidf0idhK
+published: true
 ---
 
 # My plans with this blog.

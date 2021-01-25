@@ -1,16 +1,14 @@
 <div class="container-fluid maindiv">
-  <div class="row headerdiv">
-    <div class="col-12 text-center">
-      <h1>
-        &#123;
-        <a [routerLink]="['/']">
-          <span class="myname">Shreyas Lolage's</span> 
-        </a>
-          Blog
-        &#125;
-      </h1>
+
+  <div class="row header-div">
+    <div class="col-12 col-lg-8">
+         Shreyas Lolage's Blog
+    </div>
+    <div class="col-6 col-lg-2">
+        <a [routerLink]="['/']" >[Home]</a>
     </div>
   </div>
+
   <div class="row justify-content-center listofpostsdiv">
     <div *ngFor="let post of posts$ | async" class="col-12 col-lg-8">
       <a style="
@@ -25,4 +23,5 @@
       </a>
     </div> 
   </div>
+
 </div>

@@ -9,13 +9,22 @@
 }
 
 .header-div {
-    color: #3a88d1;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+  color: #3a88d1;
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  font-size: xx-large;
 }
+
+.header-div a {
+  color: yellowgreen;
+}
+
 
 .myname {
   color: white;
+  font-size: medium;
 }
 
 /* MARKDOWN THEME BEGIN */

@@ -16,6 +16,7 @@ export class BloghomeComponent implements OnInit {
   }
 
   posts$: Observable<ScullyRoute[]>;
+  listIsEmpty: false;
 
   ngOnInit(): void {
     this.posts$ = this.scully.available$.pipe(
