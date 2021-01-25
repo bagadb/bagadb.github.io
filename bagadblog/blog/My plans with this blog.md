@@ -7,6 +7,8 @@ published: true
 
 # My plans with this blog.
 
+------
+
 #### It is so cool to have a completely personalized space on the internet, It can be anything you want. 
 
 ​	Earlier it used to be very difficult and extremely inconvenient to get it but now with Github Pages, everything is just perfect. There were always sites like Google's Blogger, WordPress, etc. but nothing matches the infinite possibilities offered by an easily accessible empty directory on the internet. A raw and extremely personalized channel of my thoughts and ideas, just one Google search or a few clicks away from any of my social profiles.

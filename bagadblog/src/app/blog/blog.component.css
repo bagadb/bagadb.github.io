@@ -11,16 +11,15 @@
 .header-div {
   color: #3a88d1;
   color: white;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 .header-div a {
-  color: yellowgreen;
+  color: #51b44c;
 }
-
 
 .myname {
   color: white;
@@ -30,13 +29,7 @@
 /* MARKDOWN THEME BEGIN */
 
 .content-div {
-  background-color: white;
-  padding: 1.5rem;
-
-  color: black;
-
+  background-color: whitesmoke;
   border-radius: 0.5rem;
-
+  padding: 1rem;
 }
-
-/* OTHER CSS*/
