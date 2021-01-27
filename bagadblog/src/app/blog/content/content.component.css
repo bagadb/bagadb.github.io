@@ -4,7 +4,7 @@
   font-weight: 400;
   color: black;
 
-  font-size: large;
+  font-size: x-large;
 }
 
 .markdown-content h1 {
@@ -23,6 +23,6 @@
 }
 
 .markdown-content hr {
-  border-top: 1px solid black;
+  
 }
 
