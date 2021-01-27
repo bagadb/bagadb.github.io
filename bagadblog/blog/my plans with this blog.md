@@ -1,7 +1,7 @@
 ---
 title: 'My Plans with this Blog'
 description: 'I talk about my plans for this blog and what kind of content I will be posting.'
-date: '1st Feb 2021'
+date: '27th Jan 2021'
 published: true
 ---
 
