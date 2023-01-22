@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="description" content="Blog and Portfolio website of Shreyas Lolage, an IT
+  Engineer and a security enthusiast!">
+
+  <title>Shreyas Lolage</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+  <style>
+    body, html {
+
+    --dark-background: #252a34;
+
+    --dark:  #252a34;
+
+    --medium: #efefef;
+
+    --light: #efefef;
+
+    --dark-text: black;
+
+    --light-text: #efefef;
+
+    --highlight: #000000FF;
+
+    --highlight-off: #00000000;
+
+    --highlight-text: #00abb5;
+
+    background-color: var(--dark-background);
+
+      margin: 0;
+      padding: 0;
+    }
+    
+    .ultimatemaindiv {        
+    /* The image used */
+    background-image: url("assets/backnord-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-size: 1 rem;
+
+    overflow: auto;
+
+    }
+
+    .photoclass {
+    border-style: solid;
+    border-color: var(--highlight-text);
+
+    border-radius: 100%;
+    pointer-events: none;
+    }
+
+    .bioclass {
+    color: var(--light-text);
+    font-size: 1 rem;
+    }
+
+    .maindiv {
+    padding: 4vh;
+    background-color: var(--dark);
+    transition-duration: 500ms;
+    user-select: none;
+    color: var(--light-text);
+    }
+
+    .emailclass {
+    color: var(--highlight-text);
+    user-select: text;
+    }
+
+    .icon{
+      display: inline-block;
+      fill: var(--light);
+      height: 25px;
+      width: 25px;
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-top: 5px;
+    }
+
+    a {
+      color: var(--light);
+      fill: var(--highlight-text);
+    }
+    a:link {
+      text-decoration: none;
+    }
+
+    a:visited {
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: var(--highlight-text);
+    }
+
+    a:active {
+      text-decoration: none;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row align-items-center ultimatemaindiv" style="padding:10px;height: 100vh;">
+      <div class="col-xl-6 col-lg-8 col-md-12 col-sm-12 col-xs-12 maindiv">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+              <div class="col-sm-4 col-8" style="padding: 1vh;">
+                  <img src="assets/profile4-ns.jpg" alt="My face" class="img-fluid photoclass">
+              </div>
+              <div class="col-sm-8 align-self-center bioclass">
+                  <h2>Hello, I am Shreyas!</h2>
+                  <p>
+                      Computers, Music and Art. This is my blog. Connect with me on my socials below or click on the link to read my blog!<br>
+                      Email me at <span class="emailclass"><b>shreyaslolage@gmail.com</b></span>
+                  </p>
+                  <div style="margin-top: 5px; margin-bottom: 5px;" class="row">
+                    <div class="col-12 text-right">
+                      <a href="/posts" target="_blank">
+                        <b>Go to Blog</b>
+                        <span class="icon icon--arrow-right">{% include icon-arrow-right.svg %}</span>  
+                      </a>
+                    </div>
+                  </div>
+                  <div style="margin-top: 5px; margin-bottom: 15px;" class="row">
+                    <div class="col-12">
+                      <a href="https://github.com/bagadb" target="_blank">
+                        <span class="icon icon--github">{% include icon-github.svg %}</span>
+                      </a>
+                      <a href="https://twitter.com/ShreyasLolage" target="_blank">
+                        <span class="icon icon--twitter">{% include icon-twitter.svg %}</span>  
+                      </a>
+                      <a href="https://www.linkedin.com/in/shreyas-lolage" target="_blank">
+                        <span class="icon icon--linkedin">{% include icon-linkedin.svg %}</span>  
+                      </a>
+                      <a href="https://www.instagram.com/shreyaslolage_" target="_blank">
+                        <span class="icon icon--instagram">{% include icon-instagram.svg %}</span>  
+                      </a>
+                      <a href="https://www.youtube.com/@prodbywisdom" target="_blank">
+                        <span class="icon icon--youtube">{% include icon-youtube.svg %}</span>  
+                      </a>
+                      <a href="https://soundcloud.com/shreyas-lolage" target="_blank">
+                        <span class="icon icon--soundcloud">{% include icon-soundcloud.svg %}</span>  
+                      </a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-12 text-right">
+              <span style="font-size: small;">Background photo by <a style="color: #00abb5;" href="https://unsplash.com/@ahuja_hemendra?utm_source=unsplash&utm_medium=referral&utm_content=reditCopyText">Hemendra Ahuja</a> on <a style="color: #00abb5;" href="https://unsplash.com/photos/0hRb3vyKq-A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+              </span>
+            </div>
+          </div>
+      </div>
+    </div>
+</div>
+</body>
+</html>
