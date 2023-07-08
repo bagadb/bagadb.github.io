@@ -1,0 +1,7 @@
+services:
+  jekyll-serve:
+    build: .
+    ports:
+      - "8000:4000"
+    volumes:
+      - $PWD:/app/bagadb.github.io

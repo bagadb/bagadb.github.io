@@ -210,7 +210,7 @@ GEM
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     minitest (5.18.0)
-    nokogiri (1.15.2-x64-mingw-ucrt)
+    nokogiri (1.15.2-x64-unknown)
       racc (~> 1.4)
     nokogiri (1.15.2-x86_64-linux)
       racc (~> 1.4)
@@ -255,7 +255,7 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
-  x64-mingw-ucrt
+  x64-unknown
   x86_64-linux
   x86_64-linux-musl
 
@@ -268,4 +268,4 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.4.3
+   2.4.15
