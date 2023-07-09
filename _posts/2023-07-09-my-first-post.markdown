@@ -22,4 +22,4 @@ I plan to do a lot more projects and a lot more things in my life this year. Hen
 
 So the content may range from Side Projects, Entertainment recommendations or opinions, Tech stuff, Gaming and Life in general as well.. who knows?
 
-I plan to keep posting weekly andI already have the next post planned so see ya soon!
+I plan to keep posting weekly and I already have the next post planned so see ya soon!
