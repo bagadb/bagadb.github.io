@@ -17,7 +17,7 @@ RUN echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
 
 WORKDIR /app/bagadb.github.io
 
-RUN gem install bundler
+RUN gem install bundler -v 2.4.22
 
 CMD bash -c "./start.sh"
 
