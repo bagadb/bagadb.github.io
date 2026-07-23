@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-head">
+    <p class="term-line">
+      <span class="ps1"><span class="ps1-dir">~/posts</span> <span class="ps1-char">❯</span></span>
+      <span class="cmd">cat {{ page.date | date: "%Y-%m-%d" }}-{{ page.slug }}.md</span>
+    </p>
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      {% if page.categories and page.categories.size > 0 %}
+      <span class="entry-cat">[{{ page.categories | join: ", " | downcase }}]</span>
+      {% endif %}
+    </p>
+  </header>
+  <div class="post-body">
+    {{ content }}
+  </div>
+  <footer class="post-foot">
+    <a class="cta" href="{{ '/posts/' | relative_url }}">cd ~/posts<span class="cta-arrow" aria-hidden="true"> ←</span></a>
+  </footer>
+</article>

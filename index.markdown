@@ -1,3 +1,4 @@
 ---
-layout: "my_home"
+layout: home
+hide_chrome: true
 ---

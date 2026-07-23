@@ -3,6 +3,7 @@ layout: post
 title:  "My Linux Terminal Setup! ( and how you can make your own )"
 date:   2023-07-16 18:00:00 +0530
 categories: Computers
+description: "My Linux terminal setup — Terminator, zsh, zplug, Starship, Nerd Fonts — and how you can theme your own."
 ---
 
 ![My Terminal Setup](/assets/my-terminal-setup-1.gif)

@@ -3,6 +3,7 @@ layout: post
 title:  "My first post!"
 date:   2023-07-09 20:00:00 +0530
 categories: Personal
+description: "Who I am, what I'm into — computers, music, movies — and what this blog is going to be about."
 ---
 
 ## Who am I?

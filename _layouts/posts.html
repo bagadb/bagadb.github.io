@@ -1,18 +1,30 @@
 ---
-layout: page
+layout: default
 ---
+<div class="listing">
+  <header class="listing-head">
+    <p class="term-line">
+      <span class="ps1">shreyas@web <span class="ps1-dir">~/posts</span> <span class="ps1-char">❯</span></span>
+      <span class="cmd">eza -la --sort date --reverse</span>
+    </p>
+    <h1 class="page-title">{{ page.title }}</h1>
+  </header>
 
-{{ content }}
+  {{ content }}
 
-{% assign postsByYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
-{% for year in postsByYear %}
-  <section id="{{ year.name }}" class="taxonomy-section">
-    <h2 class="taxonomy-title">{{ year.name }}</h2>
-    <div class="entries-{{ page.entries_layout | default: 'list' }}">
+  {% assign postsByYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+  {% for year in postsByYear %}
+  <section class="year" id="y{{ year.name }}">
+    <h2 class="year-title"><span aria-hidden="true"># </span>{{ year.name }}</h2>
+    <ul class="entries">
       {% for post in year.items %}
-        {% include entry.html %}
+      <li class="entry">
+        <time class="entry-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d" }}</time>
+        <span class="entry-cat">[{{ post.categories | first | default: 'post' | downcase }}]</span>
+        <a class="entry-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </li>
       {% endfor %}
-    </div>
-    <a href="#page-title" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+    </ul>
   </section>
-{% endfor %}
+  {% endfor %}
+</div>
