@@ -209,8 +209,9 @@ img { max-width: 100%; height: auto; }
   color: var(--accent);
   font-size: 0.95rem;
 }
+.fetch-info { min-width: 0; }
 .fetch-list { margin: 0; font-family: var(--font-mono); font-size: 0.9rem; }
-.fetch-row { margin-bottom: 0.3rem; }
+.fetch-row { margin-bottom: 0.3rem; overflow-wrap: anywhere; }
 .fetch-row dt {
   display: inline;
   color: var(--accent);
@@ -229,6 +230,10 @@ img { max-width: 100%; height: auto; }
 .fetch-swatches i:nth-child(6) { background: #bb9af7; }
 .fetch-swatches i:nth-child(7) { background: #00abb5; }
 .fetch-swatches i:nth-child(8) { background: #efefef; }
+
+@media (max-width: 540px) {
+  .fetch { flex-direction: column; align-items: flex-start; }
+}
 
 .socials {
   list-style: none;
