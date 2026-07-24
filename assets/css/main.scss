@@ -142,6 +142,7 @@ img { max-width: 100%; height: auto; }
   place-items: center;
   align-content: center;
   padding: clamp(0.75rem, 3vw, 2.5rem);
+  padding-bottom: clamp(2.75rem, 7vw, 3.75rem);
   background:
     linear-gradient(rgba(12, 8, 16, 0.42), rgba(12, 8, 16, 0.62)),
     url("../ag-5.jpg") center / cover no-repeat;
@@ -244,6 +245,21 @@ img { max-width: 100%; height: auto; }
 
 @media (max-width: 540px) {
   .fetch { flex-direction: column; align-items: flex-start; }
+
+  .desktop {
+    align-content: start;
+    padding-top: 1rem;
+    padding-bottom: 3.25rem;
+  }
+
+  .term {
+    margin-bottom: 0.5rem;
+  }
+
+  .fetch-swatches,
+  .desktop-credit {
+    bottom: 0.85rem;
+  }
 }
 
 .socials {
